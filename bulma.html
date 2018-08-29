@@ -1,0 +1,125 @@
+<html>
+
+<head>
+
+<style>
+.post {
+  position: relative;
+  padding: 20px;
+  flex-basis: auto;
+}
+
+.post__category {
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+.post__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+
+.post__content {
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+.post__category,
+.post__permalink {
+  color: #4a4a4a;
+  text-decoration: underline;
+}
+
+.post__permalink {
+  position: absolute;
+  bottom: 20px;
+}
+
+.fb-auto {
+  flex-basis: auto;
+}
+
+.pink {
+  background: #ffdae0;
+}
+
+.gray {
+  background: #e7f0da;
+}
+
+.green {
+  background: #ddebd0;
+}
+
+.gold {
+  background: #fcf5b6;
+}
+
+.blue {
+  background: #cae9ef;
+}
+
+.red {
+  background: #f8c9c1;
+}
+</style>
+
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<a class="button is-primary"> Home </a>
+<a class="button is-info"> Sobre </a>
+<a class="button is-success"> Portfolio </a>
+<a class="button is-warning"> Localização </a>
+
+<div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <article class="tile is-child green post">
+       <h2 class="post__title">Coluna #1</h2>
+          <div class="post__content">Primeira coluna.</div>
+          <a class="post__permalink" href="">Learn more</a>
+    </article>
+  </div>
+ 
+  <div class="tile is-6 is-parent">
+    <article class="tile is-child pink post">
+   <h2 class="post__title">Coluna #2</h2>
+          <div class="post__content">Segunda coluna.</div>
+          <a class="post__permalink" href="">Learn more</a>
+    </article>
+  </div>
+ 
+  <div class="tile is-vertical is-parent">
+    <article class="tile is-child blue post">
+      <h2 class="post__title">Coluna #3</h2>
+          <div class="post__content">Terceira coluna.</div>
+          <a class="post__permalink" href="">Learn more</a>
+    </article>
+	
+    <article class="tile is-child gold post">
+      <h2 class="post__title">Coluna #4	</h2>
+          <div class="post__content">Quarta coluna.</div>
+          <a class="post__permalink" href="">Learn more</a>
+    </article>
+  </div>
+</div>	
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Desenvolvido por</strong>  <a href="https://www.facebook.com/bruno.constant.9">Bruno Rodrigues</a>.
+         
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
